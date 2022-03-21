@@ -13,7 +13,7 @@ const AvailableMeals = () => {
     const fetchMeals = async () => {
       setIsLoading(true);
       const response = await fetch(
-        'https://react-food-order-app-ce29c-default-rtdb.europe-west1.firebasedatabase.app/meals.json1'
+        'https://react-food-order-app-ce29c-default-rtdb.europe-west1.firebasedatabase.app/meals.json'
       ); // fetch() returns a promise, hence async + await
 
       if (!response.ok) {
